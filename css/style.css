@@ -1,3 +1,23 @@
 .cor{
     background-color: aqua;
 }
+#anima-div{
+    width: 250px;
+    height: 250px;
+    background-color: #be32da;
+    border-radius: 25%;
+    animation: mov-div 1s infinite;
+}
+/*
+@keyframes mov-div{
+    from{margin-top: 0px;}
+    to{margin-top: 300px;}
+}*/
+
+@keyframes mov-div{
+    0%{margin-top: 0px;}
+    10%{margin-top: 500px; background-color: #5208ff;} 
+    45%{margin-top: 500px; background-color: #e6ff05;}
+    85%{margin-left: 500px; background-color: #ff1404;}
+    100%{margin-top: 0px;}
+}
